@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WildLife</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jai.css">
+<link rel="stylesheet" href="css/bootstrap.theme.min.css">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="icon" type="image/png" href="contactthelion-logo.png" />
+
+ <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script>	
+      function init_map() {
+		var var_location = new google.maps.LatLng(24.2630663,73.9758668);
+        var var_mapoptions = {
+          center: var_location,
+          zoom: 9,
+		  panControl:true,
+          zoomControl:true,
+          mapTypeControl:true,
+          scaleControl:true,
+          streetViewControl:true,
+          overviewMapControl:true,
+          rotateControl:true,    
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+		var var_marker = new google.maps.Marker({
+			position: var_location,
+            animation:google.maps.Animation.BOUNCE,
+			map: var_map,
+			title:"Rajasthan"});
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+		var_marker.setMap(var_map);	
+      }
+      google.maps.event.addDomListener(window, 'load', init_map);
+	  google.maps.event.addListener(map,'center_changed',function() {
+      window.setTimeout(function() {
+      map.panTo(marker.getPosition());
+      },3000);
+      });
+</script>
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html">WildLifeOfRajasthan.in</a>
+            </div>
+           
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="deta.html">OverView</a>
+                    </li>
+                    <li>
+                        <a href=" ">Save Animal</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+       </div>
+    </nav>
+
+<div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Jaisamand Sanctuary</h1>
+                        <h3>Sanctuary Of Rajasthan</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+ <div class="container"> <center>
+  <h2><font color="#006633" size="8px">ABOUT</font></h2> </center> 
+</div>
+<br>
+ 
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading"> Detail </h2>
+<p> The Jaisamand sanctuary is located at a distance of 51 km south east of Udaipur and spread over an area of 160 square km. Jaisamand Sanctuary came into existence in the year 1957. This sanctuary is the habitat of innumerable species which include sloth bear, leopard, chital, chinkara, wild boar and a large number of the birds that breed here such as darter, open bill stork, pond heron, little cormorant and Indian Shag.</p> 
+<p>The Jaisamand sanctuary is located besides an artificial lake, which is popularly referred to as Dhevar Lake. Jaisamand Lake, also known as Dhebar, is located 52km south east of Udaipur and was built by Maharaja Jai Singh in 1685. Legend has it that Rana Jai Singh constructed the Dhebar Lake to provide a perfect backdrop for a summer retreat - "Rubi Rani Ka Mahal". It is the second largest artificial lake in Asia covering an area of 36sqkm. The lake remained the largest artificial lake in the world till the building of the Aswan dam in Egypt.</p>
+<p>The sanctuary is an expanse of dense woodland over a great area of 52 sq km. The leopard, hyena, jungle cat, fox and wolf include the predators of the sanctuary. Additional abundant animals here comprise sambar, chital, langur and chinkara. The Jaisamand Lake is the humble home of crocodiles, turtles and an amazing diversity of fish.</p>
+
+   </div>
+  </div>
+ </div>
+</div>    
+                                
+ 
+
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading">  Visit  </h2>
+ <p> Fortunately for tourists, accommodation is not a problem in Udaipur. The town (not the park) has a number of guest houses, forest lodges and hotels, including some luxurious heritage properties. Besides the accommodation in the town, there are two forest lodges and two restaurants within the park. The restaurants are however, extremely basic and it’s advisable to bring your own food if you plan to spend the entire day within the park.</p>
+<p>Best time is November to April.</p>
+
+   </div>
+  </div>
+ </div>
+</div>    
+<br>
+
+
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading">  Highlights or Main Activities  </h2>
+ <p>The Jaisamand Lake is the abode of crocodiles, turtles and a variety of fish. The island resort is worth visiting after an adventurous trek in the wild for a close encounter with the fauna. Jeep rides are the best. A tourist bungalow, a forest rest house and a hotel provide accommodation to the enthusiastic wildlife watchers. Boat rides, Jeep safari, Camping, Bonfire and bird watching.
+</p>
+   </div>
+  </div>
+ </div>
+</div>                              
+
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading">  Tracks  </h2>
+ <p> <font color="#FF9224">By Air: </font> Dabok airport is 24 km from the city centre.Daily flights connect Udaipur with Jodhpur, Jaipur, Aurangabad, Mumbai and Delhi. </p>
+<p><font color="#FF9224">By Rail: </font> Train connectivity is established between Delhi, Jaipur and Ahmedabad through trains run by Indian Railway. Recently Udaipur got connected with Delhi Kota and Mathura with superfast Mewar express on broad gauge line. Udaipur is now also connected with the Kolkatta, by the train "Ananya Express".
+</p>
+<p>
+<font color="#FF9224">By Road: </font> Udaipur is on NH8 which links Delhi to Mumbai via Jaipur and Ahmedabad. It is a 9 hr drive from Jaipur, a 14 hr drive from Delhi and a 17 hr drive from Mumbai. Halt for the night at Ajmer if driving down from Delhi, and at Ahmedabad if coming from Mumbai.
+</p>
+<br>
+<p><font color="">National Highway (NH) 8 and is around 650 km from either metro.</font></p>
+
+ </div>
+ </div>
+ </div>
+</div>  
+<br>
+
+<div class="container">
+  <div class="row">
+      <div id="map-outer" class="col-md-12">
+          <div id="address" class="col-md-4">
+            <h2>Our Location</h2>
+              <address>
+                <strong> Jaisamand sanctuary</strong><br>
+                        Udaipur<br>
+                        313001<br>
+                        Rajasthan<br>
+                        India<br>
+                       <abbr>For more detail:</abbr><a href="http://www.hoteltravel.com/india/udaipur/jaisamand-wildlife-sanctuary-in-udaipur.htm">www.hoteltravel.com</a>
+             </address>
+          </div>
+        <div id="map-container" class="col-md-8"></div>
+      </div>
+  </div> 
+  <p> Source: wikipedia </p>
+  <p>Photo:<a href="https://pixabay.com/">Pixabay</a></p>
+</div>
+<br>
+
+ <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+    <h2>Wildlife: Animals living in their natural habitat and not within the possession or control of humans.</h2>
+               </div>            
+            </div>
+        </div>
+    </div>
+<br>
+
+<footer>
+     <div class="container">
+         <div class="row">
+               <div class="col-lg-12">
+                    <ul class="list-inline">
+                  <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                  <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="deta.html">OverView</a>
+                   </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                            <a href=" ">Save Animal</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                   <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+       <p class="copyright text-muted small">Copyright &copy; New Developer 2014.(Nick's)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+</body>
+</html>

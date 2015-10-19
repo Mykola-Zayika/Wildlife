@@ -1,0 +1,115 @@
+ body { background-color: }
+  #map-outer {  height: 440px; 
+	  			padding: 20px; 
+				border: 2px solid #CCC; 
+				margin-bottom: 20px; 
+				background-color:#FFF }
+  #map-container { height: 400px }
+  @media all and (max-width: 991px) {
+  #map-outer  { height: 650px }
+ }
+ 
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+ 
+ .intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+	color:#FFF;
+	background:url(../image/jaguar-639549_1280.jpg) center no-repeat fixed;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+	
+	 .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+	  
+
+.content-section-a {
+    padding: 10px 0;
+    background-color: #f8f8f8;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background:url(../image/1684976.jpg) center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 1.7em;
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 1.7em;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+  
+	   

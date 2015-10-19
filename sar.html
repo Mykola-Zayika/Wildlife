@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WildLife</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/srkn.css">
+<link rel="stylesheet" href="css/bootstrap.theme.min.css">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="icon" type="image/png" href="contactthelion-logo.png" />
+
+ <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script>	
+      function init_map() {
+		var var_location = new google.maps.LatLng(27.32849,76.43317);
+        var var_mapoptions = {
+          center: var_location,
+          zoom: 9,
+		  panControl:true,
+          zoomControl:true,
+          mapTypeControl:true,
+          scaleControl:true,
+          streetViewControl:true,
+          overviewMapControl:true,
+          rotateControl:true,    
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+		var var_marker = new google.maps.Marker({
+			position: var_location,
+            animation:google.maps.Animation.BOUNCE,
+			map: var_map,
+			title:"Rajasthan"});
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+		var_marker.setMap(var_map);	
+      }
+      google.maps.event.addDomListener(window, 'load', init_map);
+	  google.maps.event.addListener(map,'center_changed',function() {
+      window.setTimeout(function() {
+      map.panTo(marker.getPosition());
+      },3000);
+      });
+</script>
+
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html">WildLifeOfRajasthan.in</a>
+            </div>
+           
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="deta.html">OverView</a>
+                    </li>
+                    <li>
+                        <a href=" ">Save Animal</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+       </div>
+    </nav>
+
+<div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Sariska National Park</h1>
+                        <h3>National park Of Rajasthan</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+ <div class="container"> <center>
+  <h2><font color="#006633" size="8px">ABOUT</font></h2> </center> 
+</div>
+<br>
+ 
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading">  Detail </h2>
+<p>Sariska National Park is one of the most visited national parks in the Alwar district of Jaipur, Rajasthan. Located around 107 kilometers away from Jaipur, this national park covers a vast expanse of 800 sq.The sanctuary is also home to a variety of wildlife species such as leopards, Sambhar deer, hyenas, crocodiles, woodpeckers, boars, Indian tigers, peafowls and a number of other avian species and marsh animals. The Sariska National Park also encircles the 'Siliserh Lake' and the 'Jai Samand Lake', which are home to a number of crocodiles, water snakes and other amphibians.</p> 
+<p>It covers an area of 800 sq km in total, with a core area of approximately 500 sq km. The Northern Aravali Hills dominate the skyline with their mixture of sharp cliffs and long narrow valleys. The landscape of Sariska comprises of hills and narrow valleys of the Aravali hill range.</p>
+<p>The Sariska National Park was initially the hunting grounds for the Royal family in the early 18th and 19th century. In fact, the wildlife sanctuary still houses the ruins of medieval houses and temples that date back to the 10th and 11th centuries, suggesting that the wildlife sanctuary was occupied by inhabitants a long time ago, although there is no documentary evidence suggesting the same. In 1958, Sariska was declared a wildlife sanctuary and in 1978, as a Project Tiger Reserve and a National Park respectively.
+</p>
+
+   </div>
+  </div>
+ </div>
+</div>    
+                                
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading">  Visit </h2>
+<p>The best time to visit the Sariska National Park is throughout the year for pilgrims to Pandupol. But in the rains, it’s closed for wildlife visits. The most comfortable time to go is November to March, though the best wildlife viewing is during the warmer months.If you want to avoid the scorching heat, it is advised to visit it during the months of October to March.</p>
+<p>The park is open to public from 8:00 AM to 6:30 PM but stays closed on most national holidays.Apart from being one of the top wildlife sanctuaries in Rajasthan, the Sariska National Park is also a popular pilgrimage destination and is a must-visit while sightseeing in Rajasthan.
+</p>
+   </div>
+  </div>
+ </div>
+</div>    
+<br>
+
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading">  Highlights or Main Activities  </h2>
+<p>Sariska National Park is home to numerous carnivores including Leopard, Wild Dog, Jungle Cat, Hyena, Jackal, and Tiger. These feed on an abundance of prey species such as Sambar, Chitel, Nilgai, Chausingha, Wild Boar and Langur. Sariska is also well known for its large population of Rhesus Monkeys, which are found in large numbers around Talvriksh.
+The avian world is also well represented with a rich and varied birdlife.</p>
+<p>The park surrounds a couple of historical spots that are also frequented by tourists such as the ancient 'Kankawadi Fort', the 'Nilkanth Temple', both built by the local Bargujars, and the Sariska Palace.'Pandupole' is a popular pilgrimage spot build by the mythological characters, the 'Pandavas', which is also flocked by tourists and pilgrims alike.
+</p>
+   </div>
+  </div>
+ </div>
+</div>                              
+
+<div class="content-section-a">
+    <div class="container">
+         <div class="row">
+             <div class="col-sm-12">
+                   <div class="clearfix"></div>
+                   <h2 class="section-heading">  Tracks  </h2>
+ <p> <font color="#FF9224">By Air: </font> The Jaipur Sanganer Airport is the nearest airport from Sariska and is located in Sanganer, approximately 107 kilometers from the National Park.</p>
+<p><font color="#FF9224">By Rail: </font>Nearest railhead is Alwar (35 km/1 hr). Connected to Delhi by Jaipur-Delhi Express.
+</p><p>
+<font color="#FF9224">By Road: </font>Sariska Wildlife Sanctuary is located off the Delhi-Alwar-Jaipur Road. Jaipur is located 107 kilometers away from the wildlife sanctuary and 200 kilometers from the country's capital, New Delhi. Sariska is well-connected with Alwar, which is directly connected to NH-8.
+</p><br>
+<p><font color="">From Delhi 200 Kms. via Gurgaon – Dharuhera – Bhiwari Tijara - Kishangarhbas - Alwar.</font></p>
+<p><font color=""> Travel time – From Delhi maximum 4hrs and Jaipur approx. 2hrs.</font></p>
+<p><font color="">  From Jaipur 110 Kms. via Shahpura – Bairath – Thanagazi.</font></p>
+<p> <font color=""> The nearest main town to Sariska is Alwar (36km)</font></p>
+
+ </div>
+  </div>
+ </div>
+</div>  
+<br>
+
+<div class="container">
+  <div class="row">
+      <div id="map-outer" class="col-md-12">
+          <div id="address" class="col-md-4">
+            <h2>Our Location</h2>
+              <address>
+                <strong>Sariska national park</strong><br>
+                        Alwar<br>
+                        301001<br>
+                        Rajasthan<br>
+                        India<br>
+                        <abbr>Phone no:</abbr> +91-144-2841333<br>
+						<abbr>For more detail:</abbr><a href="http://www.rajasthanwildlife.com/">www.rajasthanwildlife.com</a><br>
+                       <abbr>For more detail:</abbr><a href="http://www.tripadvisor.in/Hotel_Review-g679018-d1954276-Reviews-Sariska_Tiger_Camp-Alwar_Rajasthan.html"> www.tripadvisor.in </a>
+             </address>
+          </div>
+        <div id="map-container" class="col-md-8"></div>
+      </div>
+  </div> 
+  <p> Source: wikipedia </p>
+  <p>Photo:<a href="https://pixabay.com/">Pixabay</a></p>
+</div>
+<br>
+
+ <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+    <h2>Wildlife: Animals living in their natural habitat and not within the possession or control of humans.</h2>
+               </div>            
+            </div>
+        </div>
+  </div>
+
+<footer>
+     <div class="container">
+         <div class="row">
+               <div class="col-lg-12">
+                    <ul class="list-inline">
+                  <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                  <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="deta.html">OverView</a>
+                   </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                            <a href=" ">Save Animal</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                   <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+       <p class="copyright text-muted small">Copyright &copy; New Developer 2014.(Nick's)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+</body>
+</html>
