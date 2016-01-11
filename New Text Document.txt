@@ -1,4 +1,0 @@
-<style>
-      body { background: url(plain-background.jpg); }
-      .container { background: ; }
-</style>
